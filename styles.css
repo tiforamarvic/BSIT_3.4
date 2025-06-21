@@ -1,0 +1,10 @@
+ body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8fafc; /* Light Slate 50 */
+        }
+        /* Custom styles for gradients and shadows if needed, though Tailwind covers most */
+        .hero-background {
+            background-image: linear-gradient(to right bottom, rgba(0,0,0,0.6), rgba(0,0,0,0.4)), url('https://placehold.co/1920x800/2f2f2f/ffffff?text=Premium+Speakers');
+            background-size: cover;
+            background-position: center;
+        }
