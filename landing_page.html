@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sonic Sounds - Your Ultimate Speaker Destination</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8fafc; /* Light Slate 50 */
+        }
+        /* Custom styles for gradients and shadows if needed, though Tailwind covers most */
+        .hero-background {
+            background-image: linear-gradient(to right bottom, rgba(0,0,0,0.6), rgba(0,0,0,0.4)), url('https://placehold.co/1920x800/2f2f2f/ffffff?text=Premium+Speakers');
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="bg-gray-900 text-white p-4 shadow-lg">
+        <nav class="container mx-auto flex justify-between items-center">
+            <!-- Logo/Brand Name -->
+            <a href="#" class="text-2xl font-bold text-teal-400">Sonic Sounds</a>
+
+            <!-- Navigation Links -->
+            <div class="hidden md:flex space-x-6">
+                <a href="#" class="hover:text-teal-400 transition duration-300">Home</a>
+                <a href="#" class="hover:text-teal-400 transition duration-300">Products</a>
+                <a href="#" class="hover:text-teal-400 transition duration-300">About Us</a>
+                <a href="#" class="hover:text-teal-400 transition duration-300">Contact</a>
+            </div>
+
+            <!-- Mobile Menu Button -->
+            <button class="md:hidden text-white focus:outline-none">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                </svg>
+            </button>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-background text-white py-20 md:py-32 flex items-center justify-center rounded-b-lg shadow-xl mx-2 md:mx-4 mt-4">
+        <div class="container mx-auto text-center px-4">
+            <h1 class="text-4xl md:text-6xl font-extrabold leading-tight mb-4 animate-fade-in-up">Experience Sound Like Never Before</h1>
+            <p class="text-lg md:text-2xl mb-8 opacity-90">Discover our exquisite range of speakers, crafted for the ultimate audio journey.</p>
+            <a href="#products" class="bg-teal-500 hover:bg-teal-600 text-white font-bold py-3 px-8 rounded-full shadow-lg transition duration-300 ease-in-out transform hover:scale-105">Shop Now</a>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="container mx-auto py-16 px-4" id="features">
+        <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-800">Why Choose Sonic Sounds?</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <!-- Feature 1 -->
+            <div class="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transition duration-300 transform hover:-translate-y-1 text-center border border-gray-200">
+                <div class="text-teal-500 mb-4">
+                    <svg class="w-12 h-12 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-3-.75M12 17l-3 3-3-.75M12 17l9.25-12a1 1 0 00-1.07-1.07L4 12l.75 3 3-.75z"></path></svg>
+                </div>
+                <h3 class="text-xl font-semibold mb-3 text-gray-700">Superior Audio Quality</h3>
+                <p class="text-gray-600">Immerse yourself in crystal-clear highs, rich mids, and deep, resonant bass.</p>
+            </div>
+            <!-- Feature 2 -->
+            <div class="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transition duration-300 transform hover:-translate-y-1 text-center border border-gray-200">
+                <div class="text-teal-500 mb-4">
+                    <svg class="w-12 h-12 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c1.657 0 3 1.343 3 3v2a3 3 0 003 3h1a2 2 0 002-2V9a2 2 0 00-2-2h-1M4 5h1M7 5h1M7 19h1M4 19h1M12 4v16"></path></svg>
+                </div>
+                <h3 class="text-xl font-semibold mb-3 text-gray-700">Elegant Design</h3>
+                <p class="text-gray-600">Our speakers blend seamlessly with any decor, adding a touch of sophistication.</p>
+            </div>
+            <!-- Feature 3 -->
+            <div class="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transition duration-300 transform hover:-translate-y-1 text-center border border-gray-200">
+                <div class="text-teal-500 mb-4">
+                    <svg class="w-12 h-12 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+                </div>
+                <h3 class="text-xl font-semibold mb-3 text-gray-700">Cutting-Edge Technology</h3>
+                <p class="text-gray-600">Equipped with the latest advancements for an unparalleled listening experience.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Showcase Section -->
+    <section class="container mx-auto py-16 px-4" id="products">
+        <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-800">Our Bestsellers</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Product Card 1 -->
+            <div class="bg-white rounded-xl shadow-lg overflow-hidden border border-gray-200">
+                <img src="https://placehold.co/600x400/2dd4bf/ffffff?text=Wireless+Speaker" alt="Wireless Speaker" class="w-full h-64 object-cover">
+                <div class="p-6">
+                    <h3 class="text-2xl font-semibold mb-2 text-gray-800">AeroPod Pro</h3>
+                    <p class="text-gray-600 mb-4">Compact wireless speaker with incredible bass and long battery life.</p>
+                    <div class="flex justify-between items-center">
+                        <span class="text-teal-600 text-xl font-bold">$199.99</span>
+                        <button class="bg-teal-500 hover:bg-teal-600 text-white font-bold py-2 px-6 rounded-full shadow transition duration-300">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Product Card 2 -->
+            <div class="bg-white rounded-xl shadow-lg overflow-hidden border border-gray-200">
+                <img src="https://placehold.co/600x400/2dd4bf/ffffff?text=Studio+Monitor" alt="Studio Monitor" class="w-full h-64 object-cover">
+                <div class="p-6">
+                    <h3 class="text-2xl font-semibold mb-2 text-gray-800">StudioFlow 500</h3>
+                    <p class="text-gray-600 mb-4">Professional studio monitors for unparalleled audio clarity and precision.</p>
+                    <div class="flex justify-between items-center">
+                        <span class="text-teal-600 text-xl font-bold">$449.99</span>
+                        <button class="bg-teal-500 hover:bg-teal-600 text-white font-bold py-2 px-6 rounded-full shadow transition duration-300">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Product Card 3 -->
+            <div class="bg-white rounded-xl shadow-lg overflow-hidden border border-gray-200">
+                <img src="https://placehold.co/600x400/2dd4bf/ffffff?text=Portable+Speaker" alt="Portable Speaker" class="w-full h-64 object-cover">
+                <div class="p-6">
+                    <h3 class="text-2xl font-semibold mb-2 text-gray-800">RoamBliss X</h3>
+                    <p class="text-gray-600 mb-4">Rugged, waterproof portable speaker perfect for outdoor adventures.</p>
+                    <div class="flex justify-between items-center">
+                        <span class="text-teal-600 text-xl font-bold">$129.99</span>
+                        <button class="bg-teal-500 hover:bg-teal-600 text-white font-bold py-2 px-6 rounded-full shadow transition duration-300">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action / Testimonials Section -->
+    <section class="bg-gray-800 text-white py-16 px-4 rounded-t-lg mx-2 md:mx-4 mb-4 shadow-xl">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl md:text-4xl font-bold mb-8">Ready to Elevate Your Sound?</h2>
+            <p class="text-lg md:text-xl mb-8 opacity-90 max-w-2xl mx-auto">Join thousands of satisfied customers who have transformed their audio experience with Sonic Sounds.</p>
+            <a href="#products" class="bg-white text-teal-600 hover:bg-gray-200 font-bold py-3 px-8 rounded-full shadow-lg transition duration-300 ease-in-out transform hover:scale-105">View All Products</a>
+
+            <!-- Testimonials (Optional, can be a separate section) -->
+            <div class="mt-16 grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-gray-700 p-6 rounded-xl shadow-md">
+                    <p class="italic text-gray-300 mb-4">"The sound quality is truly phenomenal. My music has never sounded this good!"</p>
+                    <p class="font-semibold text-teal-400">- Alex R.</p>
+                </div>
+                <div class="bg-gray-700 p-6 rounded-xl shadow-md">
+                    <p class="italic text-gray-300 mb-4">"Absolutely stunning design and powerful audio. Highly recommend Sonic Sounds!"</p>
+                    <p class="font-semibold text-teal-400">- Sarah L.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-8">
+        <div class="container mx-auto px-4 text-center">
+            <p>&copy; 2025 Sonic Sounds. All rights reserved.</p>
+            <div class="flex justify-center space-x-6 mt-4">
+                <a href="#" class="hover:text-teal-400 transition duration-300">Privacy Policy</a>
+                <a href="#" class="hover:text-teal-400 transition duration-300">Terms of Service</a>
+                <a href="#" class="hover:text-teal-400 transition duration-300">Sitemap</a>
+            </div>
+            <div class="flex justify-center space-x-4 mt-4">
+                <!-- Social Media Icons (replace with actual icons if desired) -->
+                <a href="#" class="text-white hover:text-teal-400"><i class="fab fa-facebook-f"></i>Facebook</a>
+                <a href="#" class="text-white hover:text-teal-400"><i class="fab fa-twitter"></i>Twitter</a>
+                <a href="#" class="text-white hover:text-teal-400"><i class="fab fa-instagram"></i>Instagram</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
