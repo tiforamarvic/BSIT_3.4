@@ -2,4 +2,5 @@ Hello Welcome To BSIT 3.4
 System Administration and Maintenance. Test
 
 Name and Section
-R
+Ramirez, Yunie N. 3.4
+Bumanglag, Renz O. 3.4
