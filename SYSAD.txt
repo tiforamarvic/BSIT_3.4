@@ -2,7 +2,4 @@ Hello Welcome To BSIT 3.4
 System Administration and Maintenance. Test
 
 Name and Section
-Baranquil, Jinky E. 3.4 BSIT
-
-
-Manongsong
+Constantino 3.4 BSIT
